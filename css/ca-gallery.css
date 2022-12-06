@@ -84,7 +84,7 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: rgb(96, 91, 150);
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -565,6 +565,8 @@ header.masthead .intro-text .intro-heading {
     width: 225px;
     height: 225px;
     border: 7px solid white;
+    object-fit: cover;
+
 }
 .team-member h4 {
     margin-top: 25px;
@@ -766,4 +768,15 @@ fieldset[disabled] .btn-xl:hover {
 .container {
     padding-right: 0;
     padding-left: 0;
+}
+
+.contact-form{
+    text-align: center;
+    padding: 5px;
+}
+
+
+.contact-h4{
+    text-align: center;
+
 }
